@@ -1,0 +1,149 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .footer-area p {
+        padding-right: 60px;
+    }
+    .social-links li a {
+        margin-left: 17px;
+        width: 36px;
+        height: 36px;
+        line-height: 33px;
+        font-size: 17px;
+    }
+    .copyright-area {
+        font-size: 12px;
+    }
+
+
+
+
+    .link-one, .link-two, .link-three, .link-four {
+        padding-left: 18px;
+    }
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .copyright-area {
+        text-align: center;
+    }
+    .text-right {
+        text-align: center;
+    }
+    ul.social-links {
+        margin-top: 10px;
+    }
+    .social-links li a {
+        margin: 8px;
+        width: 36px;
+        height: 36px;
+        line-height: 33px;
+        font-size: 17px;
+    }
+
+
+
+    .logo, .links {
+        text-align: center;
+    }
+    .logo {
+        margin-bottom: 20px;
+    }
+    .mission-item img {
+        height: 320px;
+    }
+    .section-four {
+        margin-top: 20px;
+    }
+    .mission h3 {
+        width: 74%;
+    }
+    .section-five, .section-six {
+        margin-top: 5px;
+    }
+    .link-one, .link-two, .link-three, .link-four {
+        padding: 0 10px;
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .footer-area p {
+        padding-right: 20px;
+    }
+    .copyright-area {
+        text-align: center;
+    }
+    .text-right {
+        text-align: center;
+    }
+    ul.social-links {
+        margin-top: 12px;
+    }
+    .social-links li a {
+        margin: 2px;
+        width: 30px;
+        height: 30px;
+        line-height: 25px;
+        font-size: 15px;
+    }
+
+
+
+
+
+    .single-image:nth-child(1), .single-image:nth-child(2),
+    .single-image:nth-child(3),.single-image:nth-child(4),
+    .single-image:nth-child(5),.single-image:nth-child(6),
+    .single-image:nth-child(7),.single-image:nth-child(8),
+    .single-image:nth-child(9),.single-image:nth-child(10) {
+        width: 100%;
+        height: 200px;
+    }
+    .logo {
+        text-align: center;
+    }
+    .link-one, .link-two, .link-three, .link-four {
+        padding-bottom: 15px;
+    }
+    .mission h3 {
+        font-size: 20px;
+        width: 100%;
+    }
+    .mision-description p {
+        font-size: 18px;
+    }
+    .mission-item p {
+        font-size: 16px;
+    }
+    .section-four p, .section-five p, .section-six p {
+        font-size: 16px;
+    }
+    .section-four h2, .section-five h2, .section-six h2 {
+        font-size: 26px;
+        margin-bottom: 5px;
+    }
+    .section-five, .section-six {
+        margin-top: 5px;
+    }
+    .section-four {
+        margin-top: 20px;
+    }
+    .mission-item img {
+        height: 260px;
+    }
+    .section-six h3 {
+        margin: 20px auto;
+        font-size: 20px;
+    }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
