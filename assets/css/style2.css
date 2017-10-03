@@ -645,9 +645,19 @@ ul.off-canvas-main-menu li a {
     padding: 6px;
     transition: .4s;
     position: relative;
+    vertical-align: middle;
 }
 
-.off-canvas-link-one img, .off-canvas-link-two img, .off-canvas-link-three img, .off-canvas-link-four img {
+ul.off-canvas-main-menu li:last-child a {
+    font-weight: 800;
+}
+
+.off-canvas-link-one,.off-canvas-link-two,.off-canvas-link-three,.off-canvas-link-four {
+    padding-left: 6px;
+}
+
+
+.off-canvas-link-two img, .off-canvas-link-three img, .off-canvas-link-four img {
     width: 32px;
     height: 32px;
 }
