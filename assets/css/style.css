@@ -32,28 +32,28 @@
 
 
 @font-face {
-    font-family: "proximanova";
+    font-family: "ProximaNova-Regular";
     src: url("../fonts/ProximaNova-Regular.otf") format("opentype");
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "proximanova";
+    font-family: "ProximaNova-Bold";
     src: url("../fonts/ProximaNova-Bold.otf") format("opentype");
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "proximanova";
+    font-family: "ProximaNova-Light";
     src: url("../fonts/ProximaNova-Light.otf") format("opentype");
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "proximanova";
+    font-family: "ProximaNove-Semibold";
     src: url("../fonts/proximaNove-Semibold.otf") format("opentype");
     font-weight: 600;
     font-style: normal;
@@ -97,15 +97,20 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'proximanova', sans-serif;
+    font-family: "ProximaNova-Bold";
     margin: 0 0 15px;
-    font-weight: 700;
+    /* font-weight: 700; */
 }
 
+
 body {
-    font-family: 'proximanova', sans-serif;
+    font-family: "ProximaNova-Light";
     color: #4b4b4b;
     overflow-x: hidden;
+}
+
+a{
+    font-family: "ProximaNova-Regular";
 }
 
 a:hover,
@@ -118,7 +123,7 @@ a:active {
 .header-area {
 	padding-bottom: 8px;
 	padding-top: 20px;
-	border-bottom: 3px solid #f73214;
+	border-bottom: 2px solid #f73214;
 }
 .links {
 	padding-top: 0;
@@ -174,7 +179,7 @@ a:active {
 	top: 28%;
 }
 .logo p.logo-text {
-	font-weight: 400;
+	/* font-weight: 400; */
 	color: #333333;
 	font-size: 11px;
 	text-align: left;
@@ -363,7 +368,7 @@ a.bold_Link {
     width: 54%;
     line-height: 1.5;
     font-style: italic;
-    font-weight: 600;
+    /* font-weight: 600; */
 }
 
 .mision-description p {
@@ -371,7 +376,7 @@ a.bold_Link {
 	font-size: 22px;
 	margin-bottom: 20px;
 	padding: 6px 15px;
-	font-weight: 300;
+	/* font-weight: 300; */
 }
 
 .mission-item-one,
@@ -386,14 +391,14 @@ a.bold_Link {
 	margin-top: 18px;
 	margin-bottom: 18px;
 	font-size: 24px;
-	font-weight: 600;
+	/* font-weight: 600; */
 }
 
 .mission-item p {
 	color: #515151;
 	font-size: 20px;
 	line-height: 1.6;
-	font-weight: 300;
+	/* font-weight: 300; */
 	padding: 0 10px;
 }
 
@@ -433,7 +438,7 @@ a.bold_Link {
 	font-size: 30px;
 	position: relative;
 	padding-bottom: 10px;
-	font-weight: 600;
+	/* font-weight: 600; */
 }
 
 .section-four h2:after,
@@ -454,7 +459,7 @@ a.bold_Link {
 	padding-top: 30px;
 	font-size: 20px;
 	line-height: 1.8;
-	font-weight: 300;
+	/* font-weight: 300; */
 }
 
 .section-six h3 {
@@ -464,7 +469,7 @@ a.bold_Link {
     font-size: 26px;
     line-height: 1.5;
     font-style: italic;
-    font-weight: 700;
+    /* font-weight: 700; */
 }
 
 
@@ -492,13 +497,13 @@ a.bold_Link {
 
 .colored-text {
     color: #ffb500;
-    font-weight: 700;
+    /* font-weight: 700; */
 }
 
 .footer-area h5 {
     font-size: 16px;
     color: #aaaaaa;
-    font-weight: 700;
+    /* font-weight: 700; */
     text-transform: uppercase;
     margin-bottom: 5px;
     margin-top: 15px;
@@ -560,7 +565,7 @@ ul.social-links {
 
 .copyright-icon {
     opacity: .5;
-    font-weight: 700;
+    /* font-weight: 700; */
 }
 
 .privacy-policy li a {
@@ -608,9 +613,9 @@ ul.social-links {
 .responsive-menu-trigger a.menu-trigger span {
     display: block;
     height: 2px;
-    width: 30px;
+    width: 22px;
     background: #333;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
 }
 
 .responsive-menu-trigger.active{
@@ -704,6 +709,6 @@ ul.off-canvas-main-menu li:last-child a {
 } */
 
 .menu-close img{
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
 }
