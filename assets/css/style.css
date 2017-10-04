@@ -628,7 +628,7 @@ ul.social-links {
     position: fixed;
     width: 100%;
     z-index: 3;
-    background: #f73214;
+    background: #2e2d2d;
     margin-top: -600px;
     transition: .5s;
 }

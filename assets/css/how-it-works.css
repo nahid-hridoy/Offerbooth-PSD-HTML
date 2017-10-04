@@ -20,11 +20,28 @@
 }
 
 .single-hero-section {
+    position: relative;
     background-color: #fff;
     padding: 6%;
     /* border-right: 1px solid #fff;
     border-top: 1px solid #fff; */
     box-shadow: 0 0 14px #e8e8e8;
+    transition: .4s;
+    
+}
+
+.single-hero-section:nth-child(1) {
+    z-index: 6;
+}
+
+.single-hero-section:hover{
+    transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+    z-index: 7;
+    box-shadow: 0 0 20px #bbb9b9;
 }
 
 .single-hero-section img{
