@@ -37,6 +37,23 @@
         $(".off-canvas-menu,.responsive-menu-trigger").removeClass("active");
     });
 
+    window.sr = ScrollReveal({ reset: true });
+    
+    // Customizing a reveal set
+    // sr.reveal('.promise-section', { duration: 200 });
+
+    window.sr = ScrollReveal();
+    sr.reveal('.promise-section');
+    sr.reveal('.scroll_reveal');
+    
+    // as a DOM node...
+    // var scrollContainer = document.getElementById('features-section');
+    // sr.reveal('.scroll_reveal', { container: scrollContainer });
+
+    // as a selector...
+    // sr.reveal('.scroll_reveal', { container: '#features-section' });
+    
+
 
     jQuery(window).load(function () {
 
