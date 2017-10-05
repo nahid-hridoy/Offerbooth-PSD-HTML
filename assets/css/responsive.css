@@ -174,7 +174,7 @@
     .header-area {
         padding-bottom: 5px;
         padding-top: 10px;
-        z-index: 99;
+        z-index: 98;
     }
     .logo p {
         font-size: 13px;
@@ -228,6 +228,7 @@
 
     .responsive-menu-trigger a.menu-trigger{
         display: block;
+        z-index: 99;
     }
 
     .off-canvas-menu{
