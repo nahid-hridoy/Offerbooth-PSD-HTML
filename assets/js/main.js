@@ -37,7 +37,7 @@
         $(".off-canvas-menu,.responsive-menu-trigger").removeClass("active");
     });
 
-    window.sr = ScrollReveal({ reset: true });
+    window.sr = ScrollReveal({ reset: false });
     
     // Customizing a reveal set
     // sr.reveal('.promise-section', { duration: 200 });
