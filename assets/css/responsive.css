@@ -174,7 +174,7 @@
     .header-area {
         padding-bottom: 5px;
         padding-top: 10px;
-        z-index: 2;
+        z-index: 99;
     }
     .logo p {
         font-size: 13px;
@@ -187,7 +187,7 @@
     .logo p.logo-text {
         margin-left: 5px;
     }
-    .slogan {
+    .slogan, .slogan-2 {
         padding-left: 0;
         padding-bottom: 10px;
         position: relative;
