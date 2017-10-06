@@ -67,6 +67,7 @@
     text-transform: uppercase;
     margin-bottom: 10px;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .tab-list li.active a{
@@ -118,7 +119,7 @@
     float: left;
 }
 
-.tab-1-details h2{
+.tab-details h2{
     font-size: 24px;
     color: #4b4b4b;
 }
@@ -177,8 +178,17 @@ table, td, th {
 }
 
 table{
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     margin-top: 16px;
     border-collapse: collapse;
     width: 100%;
+}
+
+.td-img{
+    vertical-align: top;
+    padding-top: 2%;
+}
+
+table:nth-child(2) {
+    margin-bottom: 70px;
 }
