@@ -254,6 +254,10 @@
     .login-btn button {
         width: 100%;
     }
+
+    .appstores {
+        margin-left: 0px;
+    }
 }
 
 

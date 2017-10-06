@@ -163,12 +163,13 @@ a.form-highlighter{
 .appstores {
     text-align: center;
     margin-bottom: 50px;
-}
-
-
-.appstores a:nth-child(1) {
     margin-left: -4px;
 }
+
+
+/* .appstores a:nth-child(1) {
+    margin-left: -4px;
+} */
 
 .appstores a {
     margin-left: 20px;
