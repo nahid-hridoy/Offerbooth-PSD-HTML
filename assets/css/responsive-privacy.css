@@ -6,6 +6,9 @@
 /* Tablet Layout: 768px. */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .privacy-header {
+        margin-top: 155px;
+    }
     
 }
 
@@ -26,6 +29,10 @@
     }
     .bordered-text:after {
         left: 60px;
+    }
+
+    .privacy-header {
+        margin-top: 110px;
     }
 }
 

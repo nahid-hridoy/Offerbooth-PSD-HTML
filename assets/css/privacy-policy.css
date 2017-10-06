@@ -96,6 +96,7 @@
 
 .icon-header{
     display: inline-block;
+    position: relative
 }
 
 .icon-header i {
@@ -109,7 +110,7 @@
 .icon-header h3 {
     display: inline-block;
     padding: 2px;
-    margin-left: 12px;
+    margin-left: 36px;
     color: #acd46a;
     font-family: "ProximaNova-Regular";
     font-size: 22px;
@@ -117,6 +118,7 @@
 
 .icon-header img {
     float: left;
+    position: absolute;
 }
 
 .tab-details h2{
