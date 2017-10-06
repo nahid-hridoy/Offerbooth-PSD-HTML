@@ -422,3 +422,12 @@ input:-ms-input-placeholder {
     opacity: .8;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 }
+
+/* .apps3 {
+    height: 53px;
+} */
+
+
+.apps2 img {
+    height: 50px;
+}

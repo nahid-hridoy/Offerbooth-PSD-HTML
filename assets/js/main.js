@@ -12,6 +12,24 @@
             $(window).scrollTop() > 100 && $(".header-area").addClass("fixed"), $(window).scrollTop() < 111 && $(".header-area").removeClass("fixed")
         }); */
 
+        var s = skrollr.init({forceHeight: false});
+        
+        $(".toggle-preview-1").hover(function(){
+            $(".first-review.preview-image-holder").addClass("active");
+            }, function(){
+                $(".first-review.preview-image-holder").removeClass("active");
+        });
+        $(".toggle-preview-2").hover(function(){
+            $(".second-review.preview-image-holder").addClass("active");
+            }, function(){
+                $(".second-review.preview-image-holder").removeClass("active");
+        });
+        $(".toggle-preview-3").hover(function(){
+            $(".third-review.preview-image-holder").addClass("active");
+            }, function(){
+                $(".third-review.preview-image-holder").removeClass("active");
+        });
+
     });
 
 
