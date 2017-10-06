@@ -33,6 +33,10 @@
         transform: none;
     }
 
+    .td-img {
+        padding-top: 8%;
+    }
+
       
   }
   /* Wide Mobile Layout: 480px. */

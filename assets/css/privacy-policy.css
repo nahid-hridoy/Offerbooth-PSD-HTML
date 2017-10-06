@@ -192,3 +192,7 @@ table{
 table:nth-child(2) {
     margin-bottom: 70px;
 }
+
+.icon-header p {
+    display: inline;
+}
