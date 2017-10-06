@@ -20,6 +20,7 @@
         $(window).on('resize', function () {
             if ($(window).width() <= 767) {
                 skrollr.init().destroy(); // skrollr.init() returns the singleton created above
+                $('.overlay').css({'background-attachment':'scroll'});
             }
         });
         
