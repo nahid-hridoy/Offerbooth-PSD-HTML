@@ -238,6 +238,10 @@
     display: inline-block
 }
 
+.apps2 img {
+    height: 50px;
+}
+
 .apps3 {
     margin-right: 30px
 }
@@ -428,6 +432,3 @@ input:-ms-input-placeholder {
 } */
 
 
-.apps2 img {
-    height: 50px;
-}
