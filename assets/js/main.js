@@ -20,7 +20,7 @@
         $(window).on('resize', function () {
             if ($(window).width() <= 767) {
                 skrollr.init().destroy(); // skrollr.init() returns the singleton created above
-                $('.overlay').css({'background-attachment':'scroll'});
+                $('.overlay').css({'background-attachment':'local'});
             }
         });
         
@@ -57,7 +57,7 @@
 
 
     $(".responsive-menu-trigger").on("click", function () {
-        $(".off-canvas-menu,.responsive-menu-trigger").addClass("active ");
+        $(".off-canvas-menu,.responsive-menu-trigger").addClass("active");
         return false;
     });
 
