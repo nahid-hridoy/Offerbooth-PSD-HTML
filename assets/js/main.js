@@ -47,13 +47,15 @@
 
 
     $(".responsive-menu-trigger").on("click", function () {
-        $(".off-canvas-menu,.responsive-menu-trigger").addClass("active ");
+        $(".off-canvas-menu,.responsive-menu-trigger,.trust-page").addClass("active ");
         return false;
     });
 
     $(".menu-close").on("click", function () {
-        $(".off-canvas-menu,.responsive-menu-trigger").removeClass("active");
+        $(".off-canvas-menu,.responsive-menu-trigger,.trust-page").removeClass("active");
     });
+
+    
 
     window.sr = ScrollReveal({ reset: false });
     

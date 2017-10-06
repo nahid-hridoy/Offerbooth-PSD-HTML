@@ -649,6 +649,17 @@ ul.social-links {
     transition: .5s;
 }
 
+.trust-page{
+    display: none;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    background: #2e2d2d;
+    margin-top: -600px;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
 ul.off-canvas-main-menu {
     margin-top: 0px;
 }
@@ -710,6 +721,16 @@ ul.off-canvas-main-menu li:last-child a {
     padding-top: 20px;
     z-index: 99;
 }
+
+.trust-page.active{
+    display: block;
+    margin-top: -100px;
+    padding-top: 40px;
+    z-index: 99;
+}
+
+
+
 
 /* .menu-close .span-1{
     display: block;
