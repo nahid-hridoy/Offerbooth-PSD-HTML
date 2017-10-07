@@ -12,18 +12,15 @@
     padding-top: 12px;
 }
 
-
 .privacy-padding {
     margin-top: 60px;
     overflow: hidden;
 }
 
-
-
-
-.section-padding{
+.section-padding {
     padding: 100px 0;
 }
+
 
 /* .tab-pane p{
 
@@ -39,27 +36,28 @@
 
 /*TAB-2*/
 
-
-.section-padding2{
+.section-padding2 {
     padding: 100px 0;
 }
+
 
 /* .tab-pane p{
 
 } */
 
-.tab-list{
+.tab-list {
     border-left: 2px solid #f3f3f3;
     margin: 0 0 30px;
     padding: 0;
     list-style: none;
     float: left;
 }
-.tab-list li{
+
+.tab-list li {
     display: block;
 }
 
-.tab-list li a{
+.tab-list li a {
     display: block;
     position: relative;
     color: #4b4b4b;
@@ -70,12 +68,12 @@
     cursor: pointer;
 }
 
-.tab-list li.active a{
+.tab-list li.active a {
     color: #f95a42;
     text-decoration: none;
 }
 
-.tab-list li.active a:after{
+.tab-list li.active a:after {
     position: absolute;
     width: 30%;
     height: 2px;
@@ -88,13 +86,13 @@
     transform: rotate(90deg);
 }
 
-.privacy-tab .tab-content{
+.privacy-tab .tab-content {
     float: right;
     width: 75%;
     margin-top: 14px;
 }
 
-.icon-header{
+.icon-header {
     display: inline-block;
     position: relative;
 }
@@ -121,7 +119,7 @@
     position: absolute;
 }
 
-.tab-details h2{
+.tab-details h2 {
     font-size: 24px;
     color: #4b4b4b;
 }
@@ -130,6 +128,7 @@ span.tab-info-date {
     font-size: 20px;
     color: #b4b3b3;
 }
+
 
 /* .aggrement.aggrement-one {
     border: 1px solid #d4d6d6;
@@ -150,15 +149,15 @@ span.tab-info-date {
     padding: 6px;
 } */
 
-.aggrement-one table td img{
+.aggrement-one table td img {
     margin-left: 15px;
     margin-right: 45px;
     height: 100%;
     vertical-align: top;
-    text-align:center;
+    text-align: center;
 }
 
-.aggrement-one table td p{
+.aggrement-one table td p {
     padding: 16px;
     text-align: left;
     margin-top: 10px;
@@ -166,7 +165,7 @@ span.tab-info-date {
     color: #4b4b4b;
 }
 
-.aggrement-one table td h3{
+.aggrement-one table td h3 {
     padding: 0px 16px;
     text-align: left;
     margin-top: 20px;
@@ -175,18 +174,20 @@ span.tab-info-date {
     font-family: "ProximaNova-Regular";
 }
 
-table, td, th {
+table,
+td,
+th {
     border: 1px solid #d4d6d6;
 }
 
-table{
+table {
     margin-bottom: 20px;
     margin-top: 16px;
     border-collapse: collapse;
     width: 100%;
 }
 
-.td-img{
+.td-img {
     vertical-align: top;
     padding-top: 2%;
 }
@@ -197,4 +198,35 @@ table:nth-child(2) {
 
 .icon-header p {
     display: inline;
+}
+
+p.para-small-font {
+    border-top: 1px solid rgba(234, 236, 236, 0.8);
+    border-bottom: 1px solid rgba(234, 236, 236, 0.8);
+    ;
+    font-size: 13px !important;
+}
+
+.agreement-list {
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+.agreement-list li {
+    font-size: 16px;
+    line-height: 2;
+    padding-left: 16px;
+}
+
+.tab-content a {
+    color: #4b4b4b;
+    transition: .3s;
+}
+
+.tab-content a:hover {
+    opacity: .8;
+}
+
+.special {
+    font-size: 26px !important;
 }
