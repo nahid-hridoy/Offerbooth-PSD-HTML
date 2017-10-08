@@ -174,7 +174,7 @@
     .header-area {
         padding-bottom: 5px;
         padding-top: 10px;
-        z-index: 98;
+        z-index: 90;
     }
     .logo p {
         font-size: 13px;
@@ -233,6 +233,7 @@
 
     .off-canvas-menu{
         display: block;
+        z-index: 99;
         /* margin-top: -100px; */
     }
 
@@ -258,6 +259,31 @@
     .appstores {
         margin-left: 0px;
     }
+
+    /* owl-carousel responsive */
+
+    .banner {
+        margin-top: 120px;
+    }
+
+    .bannerright{
+     width: 20%;
+     padding-top: 10px;
+    }
+
+    .bxslider .owl-nav .owl-prev{
+        display: none;
+    }
+
+    .bxslider .owl-nav .owl-next{
+        display: none;
+    }
+
+    .gallery ul {
+        margin-left: -40px;
+    }
+
+
 }
 
 

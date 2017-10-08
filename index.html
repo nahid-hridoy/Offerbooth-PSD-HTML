@@ -1,140 +1,120 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
-<!--<![endif]-->
+<html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>OffeBooth - Home</title>
-    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link href="assets/css/style-old.css" rel="stylesheet" >
-    <link href="assets/css/jquery.bxslider.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png"/>
+
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/css/owl.carousel.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/style-old.css" rel="stylesheet">
+    <link href="assets/css/style-partner.css" rel="stylesheet">
+    <link href="assets/css/jquery.bxslider.css" rel="stylesheet" />
     <link href="assets/css/responsive.css" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-    <script src="assets/js/jquery.bxslider.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('.bxslider').bxSlider({
-                auto: true,
-                autoControls: true
-            });
+    <link href="assets/css/responsive-partner.css" rel="stylesheet">
 
-        });
-        $(document).ready(function () {
-            $(window).bind('scroll', function () {
-                var navHeight = $(window).height() - 70;
-                if ($(window).scrollTop() > 100) {
-                    $('.top').addClass('fixed');
-                }
-
-                if ($(window).scrollTop() < 111) {
-                    $('.top').removeClass('fixed');
-                }
-            });
-
-
-        });
-    </script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+ 
 </head>
 
 <body>
 
-        <!-- MENU TRIGGER/TOGGLE -->
-        <div class="responsive-menu-trigger">
-                <a href="#" class="menu-trigger">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </a>
-            </div>
-        
-            <!-- OFFCANVAS MENU -->
-            <div class="off-canvas-menu">
-                <span class="menu-close">
+    <!-- MENU TRIGGER/TOGGLE -->
+    <div class="responsive-menu-trigger">
+        <a href="#" class="menu-trigger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </div>
+
+    <!-- OFFCANVAS MENU -->
+    <div class="off-canvas-menu">
+        <span class="menu-close">
                 <img src="assets/img/close-w.png" alt="">
                 </span>
-                <div class="off-canvas-logo">
-                    <img src="assets/img/logo-footer.png" alt="">
+        <div class="off-canvas-logo">
+            <img src="assets/img/logo-footer.png" alt="">
+        </div>
+        <ul class="off-canvas-main-menu">
+            <li>
+                <div class="off-canvas-link-one">
+                    <img src="assets/img/white/app.png" alt="">
+                    <a href="#">Download App</a>
                 </div>
-                <ul class="off-canvas-main-menu">
-                    <li>
-                        <div class="off-canvas-link-one">
-                            <img src="assets/img/white/app.png" alt="">
-                            <a href="#">Download App</a>
-                        </div>
-                    </li>
-        
-                    <li>
-                        <div class="off-canvas-link-two">
-                            <img src="assets/img/white/user.png" alt="">
-                            <a href="#">Partner Login</a>
-                        </div>
-                    </li>
-        
-                    <li>
-                        <div class="off-canvas-link-two">
-                            <img src="assets/img/white/help.png" alt="">
-                            <a href="#">Help</a>
-                        </div>
-                    </li>
-        
-        
-                    <li>
-                        <div class="off-canvas-link-two">
-                            <img src="assets/img/white/call.png" alt="">
-                            <a href="#">+91 8968 3006 69</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+            </li>
+
+            <li>
+                <div class="off-canvas-link-two">
+                    <img src="assets/img/white/user.png" alt="">
+                    <a href="#">Partner Login</a>
+                </div>
+            </li>
+
+            <li>
+                <div class="off-canvas-link-two">
+                    <img src="assets/img/white/help.png" alt="">
+                    <a href="#">Help</a>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="off-canvas-link-two">
+                    <img src="assets/img/white/call.png" alt="">
+                    <a href="#">+91 8968 3006 69</a>
+                </div>
+            </li>
+        </ul>
+    </div>
 
     <div class="header-area fixed">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="col-md-5">
-                            <div class="logo">
-                                <a href="http://www.offerbooth.com/">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-5">
+                        <div class="logo">
+                            <a href="http://www.offerbooth.com/">
                                         <img src="assets/img/logo1.png" alt="Logo">
                                         <p class="logo-text">Find &amp; share great offers</p>
                                         <span class="tooltiptext">offerbooth</span>
                                     </a>
-                                <span class="slogan">India’s Largest Network of Offers</span>
-                            </div>
+                            <span class="slogan">India’s Largest Network of Offers</span>
                         </div>
-                        <div class="col-md-7">
-                            <div class="links">
-                                <div class="link-one">
-                                    <img src="assets/img/app.png" alt="">
-                                    <a href="#">Download App</a>
-                                </div>
-    
-                                <div class="link-two">
-                                    <img src="assets/img/user.png" alt="">
-                                    <a href="#">Partner Login</a>
-                                </div>
-    
-                                <div class="link-three">
-                                    <img src="assets/img/help.png" alt="">
-                                    <a href="#">Help</a>
-                                </div>
-    
-                                <div class="link-four">
-                                    <img src="assets/img/call.png" alt="">
-                                    <a href="#" class="bold_Link">+91 8968 3006 69</a>
-                                </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="links">
+                            <div class="link-one">
+                                <img src="assets/img/app.png" alt="">
+                                <a href="#">Download App</a>
+                            </div>
+
+                            <div class="link-two">
+                                <img src="assets/img/user.png" alt="">
+                                <a href="#">Partner Login</a>
+                            </div>
+
+                            <div class="link-three">
+                                <img src="assets/img/help.png" alt="">
+                                <a href="#">Help</a>
+                            </div>
+
+                            <div class="link-four">
+                                <img src="assets/img/call.png" alt="">
+                                <a href="#" class="bold_Link">+91 8968 3006 69</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
 
 
@@ -143,7 +123,7 @@
 
     <div class="banner">
         <ul class="bxslider">
-            <li><img src="assets/images/slider.jpg" class="slide1" />
+            <li><img src="assets/img/slider.jpg" class="slide1" />
                 <div class="slidercon">
                     <div class="bannercon">
                         <div class="bannerleft">
@@ -152,19 +132,19 @@
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
                                 text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
                             </p>
-                            <a href="#" class="apps"><img src="assets/images/app.png"></a>
-                            <a href="#"><img src="assets/images/google.png"></a>
+                            <a href="#" class="apps"><img src="assets/img/apple.png"></a>
+                            <a href="#"><img src="assets/img/google.png"></a>
 
                         </div>
                         <div class="bannerright">
-                            <img src="assets/images/iphone.png">
+                            <img src="assets/img/iphone.png">
                         </div>
                         <div class="clear"></div>
                     </div>
                 </div>
             </li>
 
-            <li><img src="assets/images/slider2.jpg" class="slide1" />
+            <li><img src="assets/img/slider2.jpg" class="slide1" />
                 <div class="slidercon">
                     <div class="bannercon">
                         <div class="bannerleft">
@@ -173,19 +153,19 @@
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
                                 text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
                             </p>
-                            <a href="#" class="apps"><img src="assets/images/app.png"></a>
-                            <a href="#"><img src="assets/images/google.png"></a>
+                            <a href="#" class="apps"><img src="assets/img/apple.png"></a>
+                            <a href="#"><img src="assets/img/google.png"></a>
 
                         </div>
                         <div class="bannerright">
-                            <img src="assets/images/iphone.png">
+                            <img src="assets/img/iphone.png">
                         </div>
                         <div class="clear"></div>
                     </div>
                 </div>
             </li>
 
-            <li><img src="assets/images/slider3.jpg" class="slide1" />
+            <li><img src="assets/img/slider3.jpg" class="slide1" />
                 <div class="slidercon">
                     <div class="bannercon">
                         <div class="bannerleft">
@@ -194,19 +174,19 @@
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
                                 text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
                             </p>
-                            <a href="#" class="apps"><img src="assets/images/app.png"></a>
-                            <a href="#"><img src="assets/images/google.png"></a>
+                            <a href="#" class="apps"><img src="assets/img/apple.png"></a>
+                            <a href="#"><img src="assets/img/google.png"></a>
 
                         </div>
                         <div class="bannerright">
-                            <img src="assets/images/iphone.png">
+                            <img src="assets/img/iphone.png">
                         </div>
                         <div class="clear"></div>
                     </div>
                 </div>
             </li>
 
-            <li><img src="assets/images/slider4.jpg" class="slide1" />
+            <li><img src="assets/img/slider4.jpg" class="slide1" />
                 <div class="slidercon">
                     <div class="bannercon">
                         <div class="bannerleft">
@@ -215,12 +195,12 @@
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
                                 text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
                             </p>
-                            <a href="#" class="apps"><img src="assets/images/app.png"></a>
-                            <a href="#"><img src="assets/images/google.png"></a>
+                            <a href="#" class="apps"><img src="assets/img/apple.png"></a>
+                            <a href="#"><img src="assets/img/google.png"></a>
 
                         </div>
                         <div class="bannerright">
-                            <img src="assets/images/iphone.png">
+                            <img src="assets/img/iphone.png">
                         </div>
                         <div class="clear"></div>
                     </div>
@@ -254,7 +234,7 @@
             <ul>
                 <li class="colbox__figure">
 
-                    <img class="colbox__img lazy" data-original="assets/images/gl1.jpg" src="assets/images/gl1.jpg">
+                    <img class="colbox__img lazy" data-original="assets/img/gl1.jpg" src="assets/img/gl1.jpg">
                     <figcaption class="colbox__caption">
                         <div>
                             <h5 class="colbox__title mdl-typography--font-medium">
@@ -262,7 +242,8 @@
                                 <span class="u-isBlock mdl-typography--text-uppercase">RESTURANT</span>
                             </h5>
                             <p class="colbox__description">Our customized holiday packages at handpicked destinations will help you have an extraordinary
-                                vacation!</p>
+                                vacation!
+                            </p>
                         </div>
                         <a class="js-tiles-link colbox__link" href="/">View more</a>
                     </figcaption>
@@ -271,7 +252,7 @@
 
                 <li class="colbox__figure">
 
-                    <img class="colbox__img lazy" data-original="assets/images/gl2.jpg" src="assets/images/gl2.jpg">
+                    <img class="colbox__img lazy" data-original="assets/img/gl2.jpg" src="assets/img/gl2.jpg">
                     <figcaption class="colbox__caption">
                         <div>
                             <h5 class="colbox__title mdl-typography--font-medium">
@@ -279,7 +260,8 @@
                                 <span class="u-isBlock mdl-typography--text-uppercase">HOTELS</span>
                             </h5>
                             <p class="colbox__description">Our customized holiday packages at handpicked destinations will help you have an extraordinary
-                                vacation!</p>
+                                vacation!
+                            </p>
                         </div>
                         <a class="js-tiles-link colbox__link" href="/">View more</a>
                     </figcaption>
@@ -288,7 +270,7 @@
 
                 <li class="colbox__figure">
 
-                    <img class="colbox__img lazy" data-original="assets/images/gl3.jpg" src="assets/images/gl3.jpg">
+                    <img class="colbox__img lazy" data-original="assets/img/gl3.jpg" src="assets/img/gl3.jpg">
                     <figcaption class="colbox__caption">
                         <div>
                             <h5 class="colbox__title mdl-typography--font-medium">
@@ -296,7 +278,8 @@
                                 <span class="u-isBlock mdl-typography--text-uppercase">GROCERIES</span>
                             </h5>
                             <p class="colbox__description">Our customized holiday packages at handpicked destinations will help you have an extraordinary
-                                vacation!</p>
+                                vacation!
+                            </p>
                         </div>
                         <a class="js-tiles-link colbox__link" href="/">View more</a>
                     </figcaption>
@@ -305,7 +288,7 @@
 
                 <li class="colbox__figure">
 
-                    <img class="colbox__img lazy" data-original="assets/images/gl4.jpg" src="assets/images/gl4.jpg">
+                    <img class="colbox__img lazy" data-original="assets/img/gl4.jpg" src="assets/img/gl4.jpg">
                     <figcaption class="colbox__caption">
                         <div>
                             <h5 class="colbox__title mdl-typography--font-medium">
@@ -313,7 +296,8 @@
                                 <span class="u-isBlock mdl-typography--text-uppercase">ELECTRICIANS</span>
                             </h5>
                             <p class="colbox__description">Our customized holiday packages at handpicked destinations will help you have an extraordinary
-                                vacation!</p>
+                                vacation!
+                            </p>
                         </div>
                         <a class="js-tiles-link colbox__link" href="/">View more</a>
                     </figcaption>
@@ -374,15 +358,16 @@
         <div class="wrap">
             <div class="part-service from-bottom">
                 <h6>PARTNER SERVICES</h6>
-                <p>Hotels / Saloons / Pizza Parlours / Burgers Huts / Restaurents / Hospitals / Colleges / Chemists / Entertainment / Event Organisers / 
-                    Automobiles / Shopping / Training Institutes / Security Services / Repairs / Play Schools / Personal Care / Party / Packers and Movers / 
-                    Labs / Jewellery / House Keeping / Fitness / Banquets / Baby Care / Auto care / Automobile / Books / Cabs &amp; Car rentals/ Caterers / 
-                    Civil Contractors / Daily needs / Dance &amp; Music / Home Improvements </p>
+                <p>Hotels / Saloons / Pizza Parlours / Burgers Huts / Restaurents / Hospitals / Colleges / Chemists / Entertainment
+                    / Event Organisers / Automobiles / Shopping / Training Institutes / Security Services / Repairs / Play
+                    Schools / Personal Care / Party / Packers and Movers / Labs / Jewellery / House Keeping / Fitness / Banquets
+                    / Baby Care / Auto care / Automobile / Books / Cabs &amp; Car rentals/ Caterers / Civil Contractors /
+                    Daily needs / Dance &amp; Music / Home Improvements </p>
                 <span>With an endless number of things under the sun, you can be sure this will be your &#39;One Stop Shop&#39; to find everything and more. </span>
             </div>
         </div>
     </div>
-    
+
     <div class="copy">
         <div class="wrap">
             <span class="from-bottom-distance-none">&copy; Copyright 2017 OfferBooth. All Rights Reserved. </span>
@@ -406,7 +391,7 @@
         </div>
     </div>
 
-    
+
 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>

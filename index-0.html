@@ -1,119 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
+<!--<![endif]-->
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
     <title>OffeBooth - Home</title>
-
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link href="assets/css/style-old.css" rel="stylesheet" >
+    <link href="assets/css/jquery.bxslider.css" rel="stylesheet" />
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/css/owl.carousel.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/style-old.css" rel="stylesheet">
     <link href="assets/css/style-partner.css" rel="stylesheet">
-    <link href="assets/css/jquery.bxslider.css" rel="stylesheet" />
     <link href="assets/css/responsive.css" rel="stylesheet">
     <link href="assets/css/responsive-partner.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="assets/js/jquery.bxslider.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.bxslider').bxSlider({
+                auto: true,
+                autoControls: true
+            });
 
-    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
- 
+        });
+        $(document).ready(function () {
+            $(window).bind('scroll', function () {
+                var navHeight = $(window).height() - 70;
+                if ($(window).scrollTop() > 100) {
+                    $('.top').addClass('fixed');
+                }
+
+                if ($(window).scrollTop() < 111) {
+                    $('.top').removeClass('fixed');
+                }
+            });
+
+
+        });
+    </script>
 </head>
 
 <body>
 
-    <!-- MENU TRIGGER/TOGGLE -->
-    <div class="responsive-menu-trigger">
-        <a href="#" class="menu-trigger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </a>
-    </div>
-
-    <!-- OFFCANVAS MENU -->
-    <div class="off-canvas-menu">
-        <span class="menu-close">
+        <!-- MENU TRIGGER/TOGGLE -->
+        <div class="responsive-menu-trigger">
+                <a href="#" class="menu-trigger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+            </div>
+        
+            <!-- OFFCANVAS MENU -->
+            <div class="off-canvas-menu">
+                <span class="menu-close">
                 <img src="assets/img/close-w.png" alt="">
                 </span>
-        <div class="off-canvas-logo">
-            <img src="assets/img/logo-footer.png" alt="">
-        </div>
-        <ul class="off-canvas-main-menu">
-            <li>
-                <div class="off-canvas-link-one">
-                    <img src="assets/img/white/app.png" alt="">
-                    <a href="#">Download App</a>
+                <div class="off-canvas-logo">
+                    <img src="assets/img/logo-footer.png" alt="">
                 </div>
-            </li>
-
-            <li>
-                <div class="off-canvas-link-two">
-                    <img src="assets/img/white/user.png" alt="">
-                    <a href="#">Partner Login</a>
-                </div>
-            </li>
-
-            <li>
-                <div class="off-canvas-link-two">
-                    <img src="assets/img/white/help.png" alt="">
-                    <a href="#">Help</a>
-                </div>
-            </li>
-
-
-            <li>
-                <div class="off-canvas-link-two">
-                    <img src="assets/img/white/call.png" alt="">
-                    <a href="#">+91 8968 3006 69</a>
-                </div>
-            </li>
-        </ul>
-    </div>
+                <ul class="off-canvas-main-menu">
+                    <li>
+                        <div class="off-canvas-link-one">
+                            <img src="assets/img/white/app.png" alt="">
+                            <a href="#">Download App</a>
+                        </div>
+                    </li>
+        
+                    <li>
+                        <div class="off-canvas-link-two">
+                            <img src="assets/img/white/user.png" alt="">
+                            <a href="#">Partner Login</a>
+                        </div>
+                    </li>
+        
+                    <li>
+                        <div class="off-canvas-link-two">
+                            <img src="assets/img/white/help.png" alt="">
+                            <a href="#">Help</a>
+                        </div>
+                    </li>
+        
+        
+                    <li>
+                        <div class="off-canvas-link-two">
+                            <img src="assets/img/white/call.png" alt="">
+                            <a href="#">+91 8968 3006 69</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
 
     <div class="header-area fixed">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="col-md-5">
-                        <div class="logo">
-                            <a href="http://www.offerbooth.com/">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="col-md-5">
+                            <div class="logo">
+                                <a href="http://www.offerbooth.com/">
                                         <img src="assets/img/logo1.png" alt="Logo">
                                         <p class="logo-text">Find &amp; share great offers</p>
                                         <span class="tooltiptext">offerbooth</span>
                                     </a>
-                            <span class="slogan">India’s Largest Network of Offers</span>
+                                <span class="slogan">India’s Largest Network of Offers</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-7">
-                        <div class="links">
-                            <div class="link-one">
-                                <img src="assets/img/app.png" alt="">
-                                <a href="#">Download App</a>
-                            </div>
-
-                            <div class="link-two">
-                                <img src="assets/img/user.png" alt="">
-                                <a href="#">Partner Login</a>
-                            </div>
-
-                            <div class="link-three">
-                                <img src="assets/img/help.png" alt="">
-                                <a href="#">Help</a>
-                            </div>
-
-                            <div class="link-four">
-                                <img src="assets/img/call.png" alt="">
-                                <a href="#" class="bold_Link">+91 8968 3006 69</a>
+                        <div class="col-md-7">
+                            <div class="links">
+                                <div class="link-one">
+                                    <img src="assets/img/app.png" alt="">
+                                    <a href="#">Download App</a>
+                                </div>
+    
+                                <div class="link-two">
+                                    <img src="assets/img/user.png" alt="">
+                                    <a href="#">Partner Login</a>
+                                </div>
+    
+                                <div class="link-three">
+                                    <img src="assets/img/help.png" alt="">
+                                    <a href="#">Help</a>
+                                </div>
+    
+                                <div class="link-four">
+                                    <img src="assets/img/call.png" alt="">
+                                    <a href="#" class="bold_Link">+91 8968 3006 69</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
 
 
@@ -241,8 +264,7 @@
                                 <span class="u-isBlock mdl-typography--text-uppercase">RESTURANT</span>
                             </h5>
                             <p class="colbox__description">Our customized holiday packages at handpicked destinations will help you have an extraordinary
-                                vacation!
-                            </p>
+                                vacation!</p>
                         </div>
                         <a class="js-tiles-link colbox__link" href="/">View more</a>
                     </figcaption>
@@ -259,8 +281,7 @@
                                 <span class="u-isBlock mdl-typography--text-uppercase">HOTELS</span>
                             </h5>
                             <p class="colbox__description">Our customized holiday packages at handpicked destinations will help you have an extraordinary
-                                vacation!
-                            </p>
+                                vacation!</p>
                         </div>
                         <a class="js-tiles-link colbox__link" href="/">View more</a>
                     </figcaption>
@@ -277,8 +298,7 @@
                                 <span class="u-isBlock mdl-typography--text-uppercase">GROCERIES</span>
                             </h5>
                             <p class="colbox__description">Our customized holiday packages at handpicked destinations will help you have an extraordinary
-                                vacation!
-                            </p>
+                                vacation!</p>
                         </div>
                         <a class="js-tiles-link colbox__link" href="/">View more</a>
                     </figcaption>
@@ -295,8 +315,7 @@
                                 <span class="u-isBlock mdl-typography--text-uppercase">ELECTRICIANS</span>
                             </h5>
                             <p class="colbox__description">Our customized holiday packages at handpicked destinations will help you have an extraordinary
-                                vacation!
-                            </p>
+                                vacation!</p>
                         </div>
                         <a class="js-tiles-link colbox__link" href="/">View more</a>
                     </figcaption>
@@ -357,16 +376,15 @@
         <div class="wrap">
             <div class="part-service from-bottom">
                 <h6>PARTNER SERVICES</h6>
-                <p>Hotels / Saloons / Pizza Parlours / Burgers Huts / Restaurents / Hospitals / Colleges / Chemists / Entertainment
-                    / Event Organisers / Automobiles / Shopping / Training Institutes / Security Services / Repairs / Play
-                    Schools / Personal Care / Party / Packers and Movers / Labs / Jewellery / House Keeping / Fitness / Banquets
-                    / Baby Care / Auto care / Automobile / Books / Cabs &amp; Car rentals/ Caterers / Civil Contractors /
-                    Daily needs / Dance &amp; Music / Home Improvements </p>
+                <p>Hotels / Saloons / Pizza Parlours / Burgers Huts / Restaurents / Hospitals / Colleges / Chemists / Entertainment / Event Organisers / 
+                    Automobiles / Shopping / Training Institutes / Security Services / Repairs / Play Schools / Personal Care / Party / Packers and Movers / 
+                    Labs / Jewellery / House Keeping / Fitness / Banquets / Baby Care / Auto care / Automobile / Books / Cabs &amp; Car rentals/ Caterers / 
+                    Civil Contractors / Daily needs / Dance &amp; Music / Home Improvements </p>
                 <span>With an endless number of things under the sun, you can be sure this will be your &#39;One Stop Shop&#39; to find everything and more. </span>
             </div>
         </div>
     </div>
-
+    
     <div class="copy">
         <div class="wrap">
             <span class="from-bottom-distance-none">&copy; Copyright 2017 OfferBooth. All Rights Reserved. </span>
@@ -390,7 +408,7 @@
         </div>
     </div>
 
-
+    
 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>

@@ -12,8 +12,13 @@
     background-image: url("../img/partner/hero-image.jpg");
 }
 
+.advertise-hero-area-2 {
+    background-image: url("../img/advertise-with-us.jpg");
+}
+
 .partner-hero-area-1,
-.partner-hero-area-2 {
+.partner-hero-area-2,
+.advertise-hero-area-2 {
     background-size: cover;
     width: 100%;
     height: 430px;
@@ -23,7 +28,7 @@
     margin-top: 99px;
 }
 
-.partner-hero-area-2 {
+.partner-hero-area-2,.advertise-hero-area-2 {
     height: 530px;
     margin-top: 2px;
 }
