@@ -12,6 +12,22 @@
             $(window).scrollTop() > 100 && $(".header-area").addClass("fixed"), $(window).scrollTop() < 111 && $(".header-area").removeClass("fixed")
         }); */
 
+
+        $(".bxslider").owlCarousel({
+        	items: 1,
+        	dots: true,
+        	nav: true,
+        	autoplay: true,
+        	navText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
+        	loop: true,
+        	animateOut: 'fadeOut'
+
+        });
+
+
+
+
+
         if ($(window).width() > 767) {
             var s = skrollr.init({forceHeight: false});
         }
