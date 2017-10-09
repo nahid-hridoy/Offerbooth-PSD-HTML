@@ -28,17 +28,17 @@
 
 
 
-        if ($(window).width() > 767) {
-            var s = skrollr.init({forceHeight: false});
-        }
+        // if ($(window).width() > 767) {
+        //     var s = skrollr.init({forceHeight: false});
+        // }
 
         // disable skrollr if the window is resized below 768px wide
-        $(window).on('resize', function () {
-            if ($(window).width() <= 767) {
-                skrollr.init().destroy(); // skrollr.init() returns the singleton created above
-                $('.overlay').css({'background-attachment':'local'});
-            }
-        });
+        // $(window).on('resize', function () {
+        //     if ($(window).width() <= 767) {
+        //         skrollr.init().destroy(); // skrollr.init() returns the singleton created above
+        //         $('.overlay').css({'background-attachment':'local'});
+        //     }
+        // });
         
         $(".toggle-preview-1").hover(function(){
             $(".first-review.preview-image-holder").addClass("active");
