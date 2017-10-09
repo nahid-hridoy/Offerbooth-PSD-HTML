@@ -169,6 +169,12 @@
     ul.social-links {
         margin-left: 0;
     }
+    .apps2 img {
+        height: 100%;
+    }
+    .apps3 {
+        margin-right: 0px;
+    }
 }
 
 
