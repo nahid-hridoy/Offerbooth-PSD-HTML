@@ -130,24 +130,6 @@ span.tab-info-date {
 }
 
 
-/* .aggrement.aggrement-one {
-    border: 1px solid #d4d6d6;
-    width: 94%;
-}
-
-.left-side {
-    text-align: center;
-    width: 10%;
-    border-right: 1px solid #d4d6d6;
-    display: inline-block;
-    padding: 14px;
-}
-
-.right-side {
-   
-    float: right;
-    padding: 6px;
-} */
 
 .aggrement-one table td img {
     margin-left: 15px;
@@ -155,6 +137,8 @@ span.tab-info-date {
     height: 100%;
     vertical-align: top;
     text-align: center;
+    width: 32px;
+    height: 32px;
 }
 
 .aggrement-one table td p {
